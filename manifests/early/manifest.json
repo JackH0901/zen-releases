@@ -2,12 +2,12 @@
   "format": 1,
   "channel": "early",
   "version": "3.0",
-  "build": 213,
-  "commit": "6312eb85f2af491c37728721de342c94e46f2ba2",
-  "published": "2026-10-28T15:13:21Z",
-  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.0-b213/ZEN-3.0-b213.zip",
-  "size": 34677602,
-  "sha256": "a32d3825c41e10711fff7c34e2cdd83c80a6db35bdaba8637c81df4fe5632dba",
+  "build": 214,
+  "commit": "8972755167d60e561db5d6e86d6f3fb94c3f62a7",
+  "published": "2026-10-28T16:22:39Z",
+  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.0-b214/ZEN-3.0-b214.zip",
+  "size": 34679667,
+  "sha256": "7fb7eb83ff1f75eed7213f6c948cb01d4de2f29339e75b6e7d9d4ad00afe4154",
   "requires_from": "3.0",
   "safety_keys": [
     "dry_run",
@@ -16,7 +16,7 @@
   "rollout_percent": 100,
   "important": false,
   "notes": [
-    "Prop firm list now updates from Kaizen's sheet",
-    "Cleaner loss limits table"
+    "UI tidy",
+    "Update test"
   ]
 }
