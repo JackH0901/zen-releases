@@ -1,0 +1,22 @@
+{
+  "format": 1,
+  "channel": "early",
+  "version": "3.0",
+  "build": 213,
+  "commit": "6312eb85f2af491c37728721de342c94e46f2ba2",
+  "published": "2026-10-28T15:13:21Z",
+  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.0-b213/ZEN-3.0-b213.zip",
+  "size": 34677602,
+  "sha256": "a32d3825c41e10711fff7c34e2cdd83c80a6db35bdaba8637c81df4fe5632dba",
+  "requires_from": "3.0",
+  "safety_keys": [
+    "dry_run",
+    "paused_by_group"
+  ],
+  "rollout_percent": 100,
+  "important": false,
+  "notes": [
+    "Prop firm list now updates from Kaizen's sheet",
+    "Cleaner loss limits table"
+  ]
+}
