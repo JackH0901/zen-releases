@@ -2,12 +2,12 @@
   "format": 1,
   "channel": "early",
   "version": "3.0",
-  "build": 214,
-  "commit": "8972755167d60e561db5d6e86d6f3fb94c3f62a7",
-  "published": "2026-10-28T16:22:39Z",
-  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.0-b214/ZEN-3.0-b214.zip",
-  "size": 34679667,
-  "sha256": "7fb7eb83ff1f75eed7213f6c948cb01d4de2f29339e75b6e7d9d4ad00afe4154",
+  "build": 215,
+  "commit": "2884eae3f89b96218819885fdb24d16c1e81bc70",
+  "published": "2026-10-28T17:24:27Z",
+  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.0-b215/ZEN-3.0-b215.zip",
+  "size": 34679696,
+  "sha256": "535578046cff4fb6b81b6907649420fe4b4733c3094bdf6bc80f113e070d778f",
   "requires_from": "3.0",
   "safety_keys": [
     "dry_run",
@@ -16,7 +16,6 @@
   "rollout_percent": 100,
   "important": false,
   "notes": [
-    "UI tidy",
-    "Update test"
+    "Logo update"
   ]
 }
