@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "channel": "members",
+  "version": "3.1",
+  "build": 217,
+  "commit": "0c359c5069471e83426b365895dfc9d5dac6eb78",
+  "published": "2026-11-05T00:39:55Z",
+  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.1-b217/ZEN-3.1-b217.zip",
+  "size": 34694552,
+  "sha256": "d0d38705d24ec8765afa700caa673a098ca916b3e694e22cf2c71c5fcac82acb",
+  "requires_from": "3.0",
+  "safety_keys": [
+    "dry_run",
+    "paused_by_group"
+  ],
+  "rollout_percent": 100,
+  "important": false,
+  "notes": [
+    "Early spread protection from 8pm UK when a pair's spread stays wide (General tab tick-box)",
+    "Unusual spread alert at twice a pair's threshold, once per spike (General tab tick-box)",
+    "One message when spread protection removes stops; no disconnect pings in spread hour or weekend",
+    "New /spreads command: each pair's live spread against its threshold",
+    "Every Telegram button fits on a phone, plus small improvements"
+  ]
+}
