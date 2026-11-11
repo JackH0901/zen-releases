@@ -1,13 +1,13 @@
 {
   "format": 1,
   "channel": "members",
-  "version": "3.1",
-  "build": 217,
-  "commit": "0c359c5069471e83426b365895dfc9d5dac6eb78",
-  "published": "2026-11-05T00:39:55Z",
-  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.1-b217/ZEN-3.1-b217.zip",
-  "size": 34694552,
-  "sha256": "d0d38705d24ec8765afa700caa673a098ca916b3e694e22cf2c71c5fcac82acb",
+  "version": "3.2",
+  "build": 218,
+  "commit": "368f07d85957cc1269d784f7bdaccfc5c847e865",
+  "published": "2026-11-11T13:59:38Z",
+  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.2-b218/ZEN-3.2-b218.zip",
+  "size": 34783225,
+  "sha256": "58ccdcf2b977c60608f9a0364a43c3a628be23078fdc9d04676a7b122642405b",
   "requires_from": "3.0",
   "safety_keys": [
     "dry_run",
@@ -16,10 +16,10 @@
   "rollout_percent": 100,
   "important": false,
   "notes": [
-    "Early spread protection from 8pm UK when a pair's spread stays wide (General tab tick-box)",
-    "Unusual spread alert at twice a pair's threshold, once per spike (General tab tick-box)",
-    "One message when spread protection removes stops; no disconnect pings in spread hour or weekend",
-    "New /spreads command: each pair's live spread against its threshold",
-    "Every Telegram button fits on a phone, plus small improvements"
+    "Spread protection only puts stops back on a live price: closed markets are waited for quietly",
+    "Optional emergency stop in spread hour: a far stop stays on while your normal stops are off",
+    "Put orders back: one tap after spread hour re-places the pending orders ZEN cancelled",
+    "Backup Retest at your own entry price, and close 25/50/75% of a trade from /positions",
+    "Risk, max positions, max loss and spread limits now apply on Save, with no restart"
   ]
 }
