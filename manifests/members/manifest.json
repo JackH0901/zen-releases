@@ -1,25 +1,26 @@
 {
   "format": 1,
   "channel": "members",
-  "version": "3.2",
-  "build": 218,
-  "commit": "368f07d85957cc1269d784f7bdaccfc5c847e865",
-  "published": "2026-11-11T13:59:38Z",
-  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.2-b218/ZEN-3.2-b218.zip",
-  "size": 34783225,
-  "sha256": "58ccdcf2b977c60608f9a0364a43c3a628be23078fdc9d04676a7b122642405b",
+  "version": "3.3",
+  "build": 220,
+  "commit": "0e2e3cdb9bfc5460f03a84ad2167a51c21f27842",
+  "published": "2026-11-20T08:50:45Z",
+  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.3-b220/ZEN-3.3-b220.zip",
+  "size": 34818795,
+  "sha256": "83439e1050a336403ebca3588c61044c2a56e9682b45fb6a71c8ddc70995578d",
   "requires_from": "3.0",
   "safety_keys": [
     "dry_run",
-    "paused_by_group"
+    "paused_by_group",
+    "trade_labels"
   ],
   "rollout_percent": 100,
   "important": false,
   "notes": [
-    "Spread protection only puts stops back on a live price: closed markets are waited for quietly",
-    "Optional emergency stop in spread hour: a far stop stays on while your normal stops are off",
-    "Put orders back: one tap after spread hour re-places the pending orders ZEN cancelled",
-    "Backup Retest at your own entry price, and close 25/50/75% of a trade from /positions",
-    "Risk, max positions, max loss and spread limits now apply on Save, with no restart"
+    "Trades in MT5 no longer say ZEN: each ZEN uses its own trade labels",
+    "Settings export carries the labels, for moving to a new VPS",
+    "Copied account emergency stop applies when you press Save",
+    "Put orders back retries a part MT5 didn't answer",
+    "Fewer Telegram two copies alerts; Stop during an update keeps it"
   ]
 }
