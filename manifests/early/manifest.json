@@ -2,12 +2,12 @@
   "format": 1,
   "channel": "early",
   "version": "3.4",
-  "build": 221,
-  "commit": "9abc884824594fe278673c7a33fd97092c797628",
-  "published": "2026-11-25T17:06:54Z",
-  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.4-b221/ZEN-3.4-b221.zip",
-  "size": 34978241,
-  "sha256": "5ae0caa89a56e10e4fbd837940ce4fb664b1adaacce11204d883796e39334e8d",
+  "build": 222,
+  "commit": "b4a23404fd0175409fea895d826502d57175d0e1",
+  "published": "2026-11-26T01:06:15Z",
+  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.4-b222/ZEN-3.4-b222.zip",
+  "size": 35030716,
+  "sha256": "b8b28e0dc6e42a0ab01800e08f5e4c4e6df84e5ee19d6a9f02fc9719e2e38b40",
   "requires_from": "3.0",
   "safety_keys": [
     "dry_run",
@@ -17,10 +17,10 @@
   "rollout_percent": 100,
   "important": false,
   "notes": [
-    "No second master trade when MT5 doesn't answer",
-    "Close, part close or break even on a copy from /positions in Telegram",
-    "New Performance tab for every account, with PDF and CSV export",
-    "Notes and tags on trades, and copy quality for copied accounts",
-    "PDFs with the weekly and monthly reports, plus a Friday check-up"
+    "Performance tab: quick overview first, then mini tabs",
+    "Trades graded A to E, with notes",
+    "New dashboard-style PDF report",
+    "/positions: pick an account, then one screen per trade",
+    "Optional: copy the master's SL and TP to a copied account"
   ]
 }
