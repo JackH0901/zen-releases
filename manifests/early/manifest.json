@@ -1,13 +1,13 @@
 {
   "format": 1,
   "channel": "early",
-  "version": "3.4",
-  "build": 222,
-  "commit": "b4a23404fd0175409fea895d826502d57175d0e1",
-  "published": "2026-11-26T01:06:15Z",
-  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.4-b222/ZEN-3.4-b222.zip",
-  "size": 35030716,
-  "sha256": "b8b28e0dc6e42a0ab01800e08f5e4c4e6df84e5ee19d6a9f02fc9719e2e38b40",
+  "version": "3.5",
+  "build": 223,
+  "commit": "485ad52b125c713da259df8027b1363f2d883e67",
+  "published": "2026-11-26T18:27:30Z",
+  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.5-b223/ZEN-3.5-b223.zip",
+  "size": 35051398,
+  "sha256": "cf907a52b1757a9b0ccfcef30f8a2ca3905f285b19c30c7871d3813a8e18cd11",
   "requires_from": "3.0",
   "safety_keys": [
     "dry_run",
@@ -17,10 +17,10 @@
   "rollout_percent": 100,
   "important": false,
   "notes": [
-    "Performance tab: quick overview first, then mini tabs",
-    "Trades graded A to E, with notes",
-    "New dashboard-style PDF report",
-    "/positions: pick an account, then one screen per trade",
-    "Optional: copy the master's SL and TP to a copied account"
+    "ZEN 3.5: Kaizen-branded PDF report",
+    "Confirm screens for Part close, Break even and spread protection off",
+    "Accounts export (CSV/PDF) for your accountant",
+    "Mini tabs across the window",
+    "Tidier Status tab, /stats sends the PDF"
   ]
 }
