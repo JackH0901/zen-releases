@@ -1,13 +1,13 @@
 {
   "format": 1,
   "channel": "members",
-  "version": "3.5",
-  "build": 225,
-  "commit": "5d069492fb0e643756b0e8a5bb173361d06ba3b6",
-  "published": "2026-11-27T00:42:42Z",
-  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.5-b225/ZEN-3.5-b225.zip",
-  "size": 35057920,
-  "sha256": "14ec9963a11072191173b2a3b77cf7345531891efdd5549fd6b92893c638ef70",
+  "version": "3.5.1",
+  "build": 227,
+  "commit": "404add069c35cb46bb5bb23e8c7ac110d2c0d214",
+  "published": "2026-11-27T12:30:47Z",
+  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.5.1-b227/ZEN-3.5.1-b227.zip",
+  "size": 35044527,
+  "sha256": "00577e5337b29bbffbc532ebdc6134c59c61ea0f432deafb64201a4c5d95a595",
   "requires_from": "3.0",
   "safety_keys": [
     "dry_run",
@@ -17,10 +17,8 @@
   "rollout_percent": 100,
   "important": false,
   "notes": [
-    "ZEN 3.5: Performance tab with breakdowns, hold time filter and PDF report",
-    "Accounts export for your accountant",
-    "Telegram copy controls and confirm screens",
-    "Mini tabs and a tidier window",
-    "No double trade when MT5 doesn't answer"
+    "Performance: % shown beside every money figure",
+    "Weekly and monthly reports show the % too",
+    "Account detail card removed"
   ]
 }
