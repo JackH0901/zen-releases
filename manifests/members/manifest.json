@@ -1,13 +1,13 @@
 {
   "format": 1,
   "channel": "members",
-  "version": "3.3",
-  "build": 220,
-  "commit": "0e2e3cdb9bfc5460f03a84ad2167a51c21f27842",
-  "published": "2026-11-20T08:50:45Z",
-  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.3-b220/ZEN-3.3-b220.zip",
-  "size": 34818795,
-  "sha256": "83439e1050a336403ebca3588c61044c2a56e9682b45fb6a71c8ddc70995578d",
+  "version": "3.5",
+  "build": 225,
+  "commit": "5d069492fb0e643756b0e8a5bb173361d06ba3b6",
+  "published": "2026-11-27T00:42:42Z",
+  "url": "https://github.com/JackH0901/zen-releases/releases/download/v3.5-b225/ZEN-3.5-b225.zip",
+  "size": 35057920,
+  "sha256": "14ec9963a11072191173b2a3b77cf7345531891efdd5549fd6b92893c638ef70",
   "requires_from": "3.0",
   "safety_keys": [
     "dry_run",
@@ -17,10 +17,10 @@
   "rollout_percent": 100,
   "important": false,
   "notes": [
-    "Trades in MT5 no longer say ZEN: each ZEN uses its own trade labels",
-    "Settings export carries the labels, for moving to a new VPS",
-    "Copied account emergency stop applies when you press Save",
-    "Put orders back retries a part MT5 didn't answer",
-    "Fewer Telegram two copies alerts; Stop during an update keeps it"
+    "ZEN 3.5: Performance tab with breakdowns, hold time filter and PDF report",
+    "Accounts export for your accountant",
+    "Telegram copy controls and confirm screens",
+    "Mini tabs and a tidier window",
+    "No double trade when MT5 doesn't answer"
   ]
 }
